@@ -4,12 +4,23 @@ Langchain is a Python module that makes it easier to use LLMs. Langchain provide
 In this project we will show how to use Langchain to analyze CSV files. We will use the OpenAI API to access GPT-3, and Streamlit to create a user interface. The user will be able to upload a CSV file and ask questions about the data. The system will then generate answers, and it can also draw tables and graphs.
 
 ## Requirements
+- pandas
+- re
+- streamlit
+- plotly.express
+
 
 Install the required packages by running
 
 ```
 pip install -r requirements.txt
 ```
+## Link to live Web App
+
+
+https://coffee-bean-rating.onrender.com/
+
+Note: Hosted via free service. Please allow time to wake by refreshing your requests to the page.
 
 ## Interface
 ![interace](https://github.com/Ngonie-x/langchain_csv/assets/28601809/0f27a2da-1128-4b23-9d01-b509b55761eb)
